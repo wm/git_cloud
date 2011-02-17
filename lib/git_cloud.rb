@@ -15,7 +15,7 @@ require 'git_cloud/git_exception'
 require 'git_cloud/file_exception'
 
 module GitCloud
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
 
   # Public: returns an instance of Git
   #

@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'git_cloud'
-  s.version           = '0.0.1'
+  s.version           = '0.0.2'
   s.date              = '2011-02-16'
   s.rubyforge_project = 'git_cloud'
 
@@ -61,7 +61,23 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
-
+    CHANGELOG.markdown
+    Gemfile
+    Gemfile.lock
+    LICENSE.markdown
+    README.markdown
+    Rakefile
+    bin/git_cloud
+    git_cloud.gemspec
+    lib/git_cloud.rb
+    lib/git_cloud/clipboard.rb
+    lib/git_cloud/command.rb
+    lib/git_cloud/file_exception.rb
+    lib/git_cloud/git.rb
+    lib/git_cloud/git_exception.rb
+    spec/command_spec.rb
+    spec/git_spec.rb
+    spec/spec_helper.rb
   ]
   # = MANIFEST =
 
